@@ -1,0 +1,94 @@
+.users-admin-page {
+    padding: 20px;
+  }
+  
+  .users-admin-page h2,
+  .users-admin-page h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+  }
+  
+  .add-user-form label {
+    font-weight: bold;
+  }
+  
+  .add-user-form input[type="email"],
+  .add-user-form input[type="password"],
+  .add-user-form select {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .add-user-form button {
+    width: 150px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-user-form button:hover {
+    background-color: #218838;
+  }
+  
+  .message {
+    text-align: center;
+    color: #dc3545;
+    margin-bottom: 20px;
+  }
+  
+  .users-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+  }
+  
+  .user-item button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-item button:first-of-type {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .user-item button:first-of-type:hover {
+    background-color: #e0a800;
+  }
+  
+  .user-item button:last-of-type {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .user-item button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  

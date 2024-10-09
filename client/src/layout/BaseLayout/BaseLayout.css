@@ -1,0 +1,14 @@
+/* client/src/layout/BaseLayout/BaseLayout.css */
+
+.base-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Высота занимает все окно браузера */
+  }
+  
+  .content-wrapper {
+    flex: 1; /* Основной контент занимает оставшееся пространство */
+    display: flex;
+    flex-direction: column;
+  }
+  

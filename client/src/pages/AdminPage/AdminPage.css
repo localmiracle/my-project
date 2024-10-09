@@ -1,0 +1,67 @@
+/* client/src/pages/AdminPage/AdminPage.css */
+
+/* Общие стили для админ-панели */
+.admin-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .admin-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Навигационное меню */
+  .admin-nav {
+    margin-bottom: 30px;
+  }
+  
+  .admin-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .admin-nav li {
+    margin: 10px;
+  }
+  
+  .admin-nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;
+    text-align: center;
+  }
+  
+  .admin-nav a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Содержимое админ-панели */
+  .admin-content {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 768px) {
+    .admin-nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .admin-nav li {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

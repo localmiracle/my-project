@@ -1,0 +1,8 @@
+@"
+node_modules/
+client/node_modules/
+api/node_modules/
+.env
+build/
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore

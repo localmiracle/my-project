@@ -1,0 +1,41 @@
+.course-view-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-view-page .curses-banners {
+    margin-top: 28px;
+}
+
+.course-view-page-body {
+    margin: 0 72px;
+}
+
+.course-view-page-title {
+    margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .course-view-page .curses-banners {
+        margin: 20px 39px;
+    }
+
+    .course-view-page-body {
+        width: 100%;
+    }
+
+    .course-view-page-title {
+        margin-left: 48px;
+    }
+
+    .course-view-page .curses-banners-item {
+
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .course-view-page-body {
+        margin: 0 258px;
+    }
+}

@@ -1,0 +1,236 @@
+.header-sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 72px 0px 72px;
+}
+
+.header-sign-in-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-sign-in-logo-container {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  display: flex;
+  cursor: pointer;
+  width: 85%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: -2px 10px 50px 9px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 100%;
+}
+
+.input-icon {
+  margin-right: 6px;
+}
+
+.search-container-input {
+  background: inherit;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+}
+
+.search-container-input::placeholder {
+  color: #dbd7da;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.user-profile-icon {
+  cursor: pointer;
+}
+
+.sign-in-button {
+  padding: 12px 16px 12px 16px;
+  border-radius: 12px;
+  background: linear-gradient(
+      360deg,
+      #f6f2fd 0%,
+      rgba(241, 234, 250, 0.25) 100%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  cursor: pointer;
+}
+
+@media screen and (max-width: 322px) {
+  .sign-in-button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header-sign-in {
+    margin: 22px 24px 0px 24px;
+  }
+
+  .header-sign-in-container {
+    flex-direction: column;
+  }
+
+  .logo-btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-sign-in-logo-container {
+    font-size: 14px;
+    flex-direction: column;
+  }
+
+  .search-container {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: -2px 10px 50px 9px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .search-container-input {
+    font-size: 14px;
+  }
+
+  .search-container-input::placeholder {
+    font-size: 14px;
+  }
+
+  .header-sign-in-logo {
+    width: 122px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .header-sign-in {
+    margin: 22px 38px 0px 38px;
+  }
+
+  .header-sign-in-logo-container {
+    font-size: 14px;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+  }
+
+  .header-sign-in-logo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .search-container-input {
+    font-size: 14px;
+  }
+
+  .search-container-input::placeholder {
+    font-size: 14px;
+  }
+
+  .header-sign-in-container {
+    flex-direction: column;
+  }
+
+  .logo-btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .search-container {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: -2px 10px 50px 9px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-sign-in {
+    margin: 22px 56px 0px 56px;
+  }
+
+  .header-sign-in-logo-container {
+    font-size: 14px;
+  }
+
+  .search-container {
+    margin-left: 20px;
+  }
+
+  .search-container-input {
+    font-size: 14px;
+  }
+
+  .search-container-input::placeholder {
+    font-size: 14px;
+  }
+
+  .header-sign-in-logo-container {
+    font-size: 14px;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+  }
+
+  .header-sign-in-logo {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1140px) and (max-width: 1588px) {
+  .header-sign-in {
+    margin: 32px 124px 0px 124px;
+  }
+
+  .header-sign-in-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1589px) and (max-width: 1600px) {
+  .header-sign-in {
+    margin: 32px 84px 0px 84px;
+  }
+
+  .header-sign-in-container {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .header-sign-in {
+    margin: 32px 164px 0px 164px;
+  }
+
+  .header-sign-in-container {
+    width: 85%;
+  }
+}

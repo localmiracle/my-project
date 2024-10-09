@@ -1,0 +1,154 @@
+/* client/src/pages/AdminPage/CoursesAdminPage.css */
+
+/* Общие стили для страницы управления курсами */
+.courses-admin-page {
+    padding: 20px;
+  }
+  
+  .courses-admin-page h2,
+  .courses-admin-page h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-course-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+  }
+  
+  .add-course-form label {
+    font-weight: bold;
+  }
+  
+  .add-course-form input[type="text"],
+  .add-course-form input[type="number"],
+  .add-course-form select,
+  .add-course-form input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .add-course-form button {
+    width: 150px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-course-form button:hover {
+    background-color: #218838;
+  }
+  
+  .message {
+    text-align: center;
+    color: #dc3545;
+    margin-bottom: 20px;
+  }
+  
+  /* Список курсов */
+  .courses-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .course-item h4 {
+    margin: 0 0 10px 0;
+  }
+  
+  .course-image {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .course-item p {
+    margin: 5px 0;
+  }
+  
+  .course-item button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course-item button:first-of-type {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .course-item button:first-of-type:hover {
+    background-color: #e0a800;
+  }
+  
+  .course-item button:last-of-type {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .course-item button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  
+  /* Редактирование курса */
+  .course-item input[type="text"],
+  .course-item input[type="number"],
+  .course-item select,
+  .course-item input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .course-item button {
+    margin-top: 5px;
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 768px) {
+    .add-course-form {
+      padding: 0 10px;
+    }
+  
+    .course-item {
+      padding: 10px;
+    }
+  
+    .add-course-form button {
+      width: 100%;
+    }
+  
+    .course-item button {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
+  

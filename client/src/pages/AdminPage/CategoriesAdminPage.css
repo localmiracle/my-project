@@ -1,0 +1,132 @@
+/* client/src/pages/AdminPage/CategoriesAdminPage.css */
+
+/* Общие стили для страницы управления категориями */
+.categories-admin-page {
+    padding: 20px;
+  }
+  
+  .categories-admin-page h2,
+  .categories-admin-page h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-category-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+  }
+  
+  .add-category-form label {
+    font-weight: bold;
+  }
+  
+  .add-category-form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .add-category-form button {
+    width: 150px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-category-form button:hover {
+    background-color: #218838;
+  }
+  
+  .message {
+    text-align: center;
+    color: #dc3545;
+    margin-bottom: 20px;
+  }
+  
+  /* Список категорий */
+  .categories-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .category-item h4 {
+    margin: 0;
+  }
+  
+  .category-item button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-item button:first-of-type {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .category-item button:first-of-type:hover {
+    background-color: #e0a800;
+  }
+  
+  .category-item button:last-of-type {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .category-item button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  
+  /* Редактирование категории */
+  .category-item input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .category-item button {
+    margin-top: 5px;
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 768px) {
+    .add-category-form {
+      padding: 0 10px;
+    }
+  
+    .category-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .category-item button {
+      width: 100%;
+      margin: 5px 0 0 0;
+    }
+  }
+  

@@ -1,0 +1,36 @@
+.recommendation-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  margin-top: 43px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+}
+
+.recommendation-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  height: auto;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #333;
+}

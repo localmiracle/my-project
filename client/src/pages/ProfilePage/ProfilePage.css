@@ -1,0 +1,91 @@
+.profile-page {
+  margin: 28px 72px;
+  display: flex;
+}
+
+.profile-page-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f5f0f4;
+  border-radius: 24px;
+  padding: 20px;
+  width: max-content;
+  height: max-content;
+  gap: 6px;
+  margin-right: 26px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.menu-item:hover {
+  background: #ffffff;
+}
+
+.menu-item img {
+  margin-right: 8px;
+  width: 14px;
+}
+
+.menu-item-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  text-align: left;
+}
+
+.profile-page-right-side {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.profile-page-right-side .recent-courses-item {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-page {
+    margin: 28px 21px;
+    flex-direction: column;
+  }
+
+  .profile-page-left-side {
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+
+  .menu-item {
+    width: 240px;
+  }
+
+  .profile-page-right-side {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .profile-page {
+    margin: 28px 56px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .profile-page {
+    margin: 28px 118px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .profile-page {
+    margin: 28px 272px;
+  }
+}

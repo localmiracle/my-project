@@ -1,0 +1,7 @@
+.curses-banners {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}

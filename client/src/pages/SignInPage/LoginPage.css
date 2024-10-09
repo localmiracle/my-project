@@ -1,0 +1,68 @@
+/* client/src/pages/LoginPage.css */
+.login-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .body-login-container {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+  }
+  
+  .body-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f5f0f4;
+    width: 37%;
+    height: max-content;
+    border-radius: 40px;
+    padding: 40px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    margin: 10px 0 5px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: #008cba;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #007bb5;
+  }
+  
+  .message {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  

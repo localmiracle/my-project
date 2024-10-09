@@ -1,0 +1,17 @@
+.curses-categories-item {
+  padding: 7px 8px 9px 8px;
+  border-radius: 8px;
+  border: 1px solid #00000033;
+  cursor: pointer;
+  transition: 0.9s easy;
+}
+
+.curses-categories-item:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+@media screen and (max-width: 425px) {
+  .curses-categories-item {
+    font-size: 14px;
+  }
+}

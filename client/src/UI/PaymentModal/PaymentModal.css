@@ -1,0 +1,31 @@
+.modal-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.payment-method-item {
+  background: white;
+  padding: 19px;
+  box-shadow: 0px 2px 12px 0px #ebe0e9;
+  border-radius: 12px;
+  margin-top: 34px;
+  width: 329px;
+}
+
+.modal-content .btn-buy {
+  width: 329px;
+  margin-top: 198px;
+}
+
+@media screen and (max-width: 425px) {
+  .payment-method-item {
+    width: 75%;
+  }
+
+  .modal-content .btn-buy{
+    width: 88%;
+  }
+}

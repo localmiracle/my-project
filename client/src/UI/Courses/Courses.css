@@ -1,0 +1,20 @@
+.curses-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.curses-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media screen and (max-width: 425px) {
+  .curses-title {
+    font-size: 25px;
+  }
+}

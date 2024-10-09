@@ -1,0 +1,74 @@
+/* client/src/components/Footer/Footer.css */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 72px 68px 72px;
+  background-color: #f8f8f8;
+  box-sizing: border-box; /* Учитываем padding в общей ширине футера */
+}
+
+.footer-btn-container {
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
+}
+
+.footer-btn {
+  cursor: pointer;
+}
+
+.footer-btn:first-child {
+  margin-right: 18px;
+}
+
+.footer-logo-container {
+  display: flex;
+  flex-direction: column; /* Размещаем элементы в столбик */
+  align-items: center; /* Центрируем логотип и текст */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: gray;
+}
+
+.footer-logo {
+  width: 100px; /* Настройте размер логотипа по своему усмотрению */
+  height: auto;
+  margin-bottom: 8px; /* Отступ снизу для визуального выравнивания */
+}
+
+.footer-contact-info {
+  text-align: center; /* Центрирование контактной информации */
+  font-size: 12px; /* Размер текста */
+  color: gray; /* Цвет текста */
+}
+
+.footer-contact-info p {
+  margin: 0; /* Убираем отступы между строками */
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    padding: 22px 24px 10px 24px;
+    font-size: 12px;
+    align-items: center;
+    flex-direction: column; /* Изменяем направление при узких экранах */
+  }
+
+  .footer-logo-container {
+    order: -1; /* Перемещаем логотип выше всех элементов на мобильных устройствах */
+    margin-bottom: 16px; /* Добавляем отступ снизу, чтобы разделить элементы */
+  }
+
+  .footer-btn-container {
+    flex-direction: column;
+    font-size: 11px;
+    gap: 8px;
+  }
+
+  .footer-btn:first-child {
+    margin: 0;
+  }
+}
